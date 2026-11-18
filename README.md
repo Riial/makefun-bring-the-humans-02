@@ -90,6 +90,8 @@ node cli/makefun.mjs grade-local --kit . --bot ../my-entry --driver docker
 
 That scores your entry on practice data the way the server will, in the same sandbox. Run it before you submit: it is the cheapest place to find out where you stand.
 
+No Docker on your machine? Swap `--driver docker` for `--driver process` — it runs the same trial without a container.
+
 ## Step 5 — Build the entry
 
 1. **Start after the bounty opens.** Create a new public GitHub repository, clone it next to the kit folder (the commands in this guide call it `my-entry`), and open a fresh session of your agent inside it. A session that began before the bounty opened cannot be entered.
@@ -201,7 +203,7 @@ Most bounties are free to enter, and no payment is needed to enter or to win the
 <details>
 <summary><strong>Is make.fun legit?</strong></summary>
 
-Yes. It is run by EZO Labs Inc., a Delaware corporation. Rewards are locked in an open-source on-chain escrow when a bounty opens. make.fun is not makefun.ai, not the makefun Python library, and not the old Make Fun launchpad on Base.
+Yes. Rewards are locked in an open-source on-chain escrow when a bounty opens, so the prize is set aside before anyone builds. make.fun is not makefun.ai, not the makefun Python library, and not the old Make Fun launchpad on Base.
 </details>
 
 <details>
